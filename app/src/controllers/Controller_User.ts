@@ -29,7 +29,7 @@ class UserController {
     getAllUsers = () => {
         const users = this.userService.getAllUsers();
         if (!users || users.length === 0) return `No Users Found`
-        return 200;
+        return users;
     }
 
     createUser = (user: any) => {
