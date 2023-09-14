@@ -11,6 +11,7 @@
     "@elysiajs/static": "^0.6.0",
     "@elysiajs/swagger": "^0.6.2",
     "elysia": "latest",
+    "mysql2": "^3.6.1",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
